@@ -918,8 +918,7 @@
       const n = b.querySelector('input[type="text"]').value.trim();
       const t = b.querySelector('input[type="tel"]').value.trim();
       return `${i + 1}) ${n} - ${t}`;
-    }).join('
-');
+    }).join('\n');
     document.getElementById('indicados-resumo').value = resumo;
 
     const form = document.getElementById('inscricao-form');
